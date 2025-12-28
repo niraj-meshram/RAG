@@ -1,0 +1,11 @@
+OpenAI
+Streamlit
+python-dotenv
+langchain_community
+unstructured
+playwright
+langchain-qdrant
+qdrant-client
+langchain-openai
+fastembed
+langchain

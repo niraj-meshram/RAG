@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / tooling
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit / cache
+.streamlit/
+.streamlit_cache/
+logs/
+
+# Environment + secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Data files
+*.db
+*.sqlite*
+*.log
+
+# Qdrant exports / scratch
+qdrant_export/
