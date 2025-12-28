@@ -3,7 +3,7 @@
 This repository houses experiments for retrieval-augmented generation (RAG) workflows. The current focus is the **CarInsuranceResearch** Streamlit application for researching and summarizing U.S. car insurance insights.
 
 ## Projects
-- `CarInsuranceResearch/` – Streamlit app that ingests up to three insurance-related URLs, filters noisy content, indexes chunks into Qdrant with hybrid (dense + sparse) embeddings, and answers analytical questions via a LangChain map-reduce pipeline.
+- `CarInsuranceResearch/` ï¿½ Streamlit app that ingests up to three insurance-related URLs, filters noisy content, indexes chunks into Qdrant with hybrid (dense + sparse) embeddings, and answers analytical questions via a LangChain map-reduce pipeline.
 
 ## Quick Start
 1. Install Python 3.10+ and Node-free Streamlit prerequisites.
@@ -14,9 +14,9 @@ This repository houses experiments for retrieval-augmented generation (RAG) work
 6. Launch the tool: `streamlit run app.py`.
 
 ## Configuration
-- **OpenAI** – Required for both embeddings (`text-embedding-3-*`) and GPT-4o-mini chat completions.
-- **Qdrant** – Provide `QDRANT_URL` and, if applicable, `QDRANT_API_KEY` to persist your vector store. Local Docker installs work out-of-the-box at `http://127.0.0.1:6333`.
-- **URL sources** – The sidebar collects up to three unique research links; avoid paywalled or bot-protected pages for best results.
+- **OpenAI** ï¿½ Required for both embeddings (`text-embedding-3-*`) and GPT-4o-mini chat completions.
+- **Qdrant** ï¿½ Provide `QDRANT_URL` and, if applicable, `QDRANT_API_KEY` to persist your vector store. Local Docker installs work out-of-the-box at `http://127.0.0.1:6333`.
+- **URL sources** ï¿½ The sidebar collects up to three unique research links; avoid paywalled or bot-protected pages for best results.
 
 ## Development Notes
 - Document ingestion caches results using `st.cache_data`, so use the **Clear** button when changing URLs drastically.
