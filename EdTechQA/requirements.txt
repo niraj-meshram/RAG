@@ -1,0 +1,9 @@
+langchain
+openapi
+OpenAI
+langchain-openai
+python-dotenv
+langchain_community
+langchain_huggingface
+sentence-transformers
+
