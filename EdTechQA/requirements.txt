@@ -6,4 +6,6 @@ python-dotenv
 langchain_community
 langchain_huggingface
 sentence-transformers
+faiss-cpu
+langchain-core
 
